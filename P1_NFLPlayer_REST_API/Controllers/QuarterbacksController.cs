@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using P1_NFLPlayer_REST_API.POCO;
@@ -52,6 +53,46 @@ namespace P1_NFLPlayer_REST_API.Controllers
             }
 
             _context.Entry(quarterback).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!QuarterbackExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
+
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> PatchQuarterback(int id, [FromBody] JsonPatchDocument<Quarterback> patchDoc)
+        {
+            if (patchDoc == null)
+            {
+                return BadRequest();
+            }
+
+            var quarterback = await _context.Quarterbacks.FindAsync(id);
+            if (quarterback == null)
+            {
+                return NotFound();
+            }
+
+            patchDoc.ApplyTo(quarterback);
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
             try
             {

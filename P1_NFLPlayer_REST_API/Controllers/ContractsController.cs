@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Azure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.JsonPatch;
 using P1_NFLPlayer_REST_API.POCO;
 
 
@@ -72,6 +74,26 @@ namespace P1_NFLPlayer_REST_API.Controllers
             }
 
             return NoContent();
+        }
+
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> PatchTeam(int id, [FromBody] JsonPatchDocument<Contract> patchDoc)
+        {
+            if (patchDoc == null)
+            {
+                return BadRequest();
+            }
+
+            var existingContract = await _context.Contracts.FindAsync(id);
+            if (existingContract == null)
+            {
+                return NotFound();
+            }
+
+            patchDoc.ApplyTo(existingContract);
+            await _context.SaveChangesAsync();
+
+            return Ok(existingContract);
         }
 
         [HttpPost]

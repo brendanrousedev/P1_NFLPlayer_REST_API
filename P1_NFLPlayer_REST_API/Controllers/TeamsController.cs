@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using P1_NFLPlayer_REST_API.POCO;
@@ -82,6 +83,28 @@ namespace P1_NFLPlayer_REST_API.Controllers
 
             return CreatedAtAction("GetTeam", new { id = team.TeamId }, team);
         }
+
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> PatchTeam(int id, [FromBody] JsonPatchDocument<Team> patchDoc)
+        {
+            if (patchDoc == null)
+            {
+                return BadRequest();
+            }
+
+            var existingTeam = await _context.Teams.FindAsync(id);
+            if (existingTeam == null)
+            {
+                return NotFound();
+            }
+
+            // Apply the patch
+            patchDoc.ApplyTo(existingTeam);
+            await _context.SaveChangesAsync();
+
+            return Ok(existingTeam);
+        }
+
 
         // DELETE: api/Teams/5
         [HttpDelete("{id}")]

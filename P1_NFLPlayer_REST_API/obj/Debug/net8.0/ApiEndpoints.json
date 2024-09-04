@@ -312,6 +312,27 @@
   },
   {
     "ContainingType": "P1_NFLPlayer_REST_API.Controllers.QuarterbacksController",
+    "Method": "PatchQuarterback",
+    "RelativePath": "api/Quarterbacks/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.QuarterbacksController",
     "Method": "DeleteQuarterback",
     "RelativePath": "api/Quarterbacks/{id}",
     "HttpMethod": "DELETE",
@@ -410,6 +431,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.StatsController",
+    "Method": "PutContract",
+    "RelativePath": "api/Stats/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "contract",
+        "Type": "P1_NFLPlayer_REST_API.POCO.Contract",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "P1_NFLPlayer_REST_API.Controllers.TeamsController",
     "Method": "GetTeams",
     "RelativePath": "api/Teams",
@@ -497,6 +539,27 @@
       {
         "Name": "team",
         "Type": "P1_NFLPlayer_REST_API.POCO.Team",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.TeamsController",
+    "Method": "PatchTeam",
+    "RelativePath": "api/Teams/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
         "IsRequired": true
       }
     ],
