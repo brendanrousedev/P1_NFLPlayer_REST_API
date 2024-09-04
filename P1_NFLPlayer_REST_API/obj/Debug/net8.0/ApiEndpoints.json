@@ -21,6 +21,32 @@
   },
   {
     "ContainingType": "P1_NFLPlayer_REST_API.Controllers.ContractsController",
+    "Method": "PostContract",
+    "RelativePath": "api/Contracts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contract",
+        "Type": "P1_NFLPlayer_REST_API.POCO.Contract",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "P1_NFLPlayer_REST_API.POCO.Contract",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.ContractsController",
     "Method": "GetContract",
     "RelativePath": "api/Contracts/{id}",
     "HttpMethod": "GET",

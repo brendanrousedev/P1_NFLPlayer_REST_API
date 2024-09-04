@@ -14,12 +14,12 @@ namespace P1_NFLPlayer_REST_API.Controllers
     [ApiController]
     public class ContractsController : ControllerBase
     {
-        private readonly NflplayerDbContext _context;
+        private readonly NflplayerDbContext _context = new NflplayerDbContext();
 
-        public ContractsController(NflplayerDbContext context)
-        {
-            _context = context;
-        }
+        //public ContractsController(NflplayerDbContext context)
+        //{
+        //    _context = context;
+        //}
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Contract>>> GetContracts()
@@ -72,6 +72,15 @@ namespace P1_NFLPlayer_REST_API.Controllers
             }
 
             return NoContent();
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Contract>> PostContract(Contract contract)
+        {
+            _context.Contracts.Add(contract);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetContract", new { id = contract.ContractId }, contract);
         }
 
         [HttpDelete("{id}")]

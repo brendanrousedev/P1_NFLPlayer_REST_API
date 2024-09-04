@@ -13,12 +13,12 @@ namespace P1_NFLPlayer_REST_API.Controllers
     [ApiController]
     public class QuarterbacksController : ControllerBase
     {
-        private readonly NflplayerDbContext _context;
+        private readonly NflplayerDbContext _context = new NflplayerDbContext();
 
-        public QuarterbacksController(NflplayerDbContext context)
-        {
-            _context = context;
-        }
+        //public QuarterbacksController(NflplayerDbContext context)
+        //{
+        //    _context = context;
+        //}
 
         // GET: api/Quarterbacks
         [HttpGet]

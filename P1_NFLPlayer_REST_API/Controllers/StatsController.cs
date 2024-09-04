@@ -13,12 +13,12 @@ namespace P1_NFLPlayer_REST_API.Controllers
     [ApiController]
     public class StatsController : ControllerBase
     {
-        private readonly NflplayerDbContext _context;
+        private readonly NflplayerDbContext _context = new NflplayerDbContext();
 
-        public StatsController(NflplayerDbContext context)
-        {
-            _context = context;
-        }
+        //public StatsController(NflplayerDbContext context)
+        //{
+        //    _context = context;
+        //}
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Stat>>> GetStats()

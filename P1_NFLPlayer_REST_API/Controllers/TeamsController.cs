@@ -13,12 +13,12 @@ namespace P1_NFLPlayer_REST_API.Controllers
     [ApiController]
     public class TeamsController : ControllerBase
     {
-        private readonly NflplayerDbContext _context;
+        private readonly NflplayerDbContext _context = new NflplayerDbContext();
 
-        public TeamsController(NflplayerDbContext context)
-        {
-            _context = context;
-        }
+        //public TeamsController(NflplayerDbContext context)
+        //{
+        //    _context = context;
+        //}
 
         // GET: api/Teams
         [HttpGet]

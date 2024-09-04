@@ -14,12 +14,12 @@ namespace P1_NFLPlayer_REST_API.Controllers
     [ApiController]
     public class GamesController : ControllerBase
     {
-        private readonly NflplayerDbContext _context;
+        private readonly NflplayerDbContext _context = new NflplayerDbContext();
 
-        public GamesController(NflplayerDbContext context)
-        {
-            _context = context;
-        }
+        //public GamesController(NflplayerDbContext context)
+        //{
+        //    _context = context;
+        //}
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Game>>> GetGames()
