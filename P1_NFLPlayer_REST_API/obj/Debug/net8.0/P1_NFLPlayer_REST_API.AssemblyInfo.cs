@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("P1_NFLPlayer_REST_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa38bffdc7e6177bf0ec5bc1dd86a951da12f304")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82ac9683754aa6f7084ba270116c42f044f62267")]
 [assembly: System.Reflection.AssemblyProductAttribute("P1_NFLPlayer_REST_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P1_NFLPlayer_REST_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

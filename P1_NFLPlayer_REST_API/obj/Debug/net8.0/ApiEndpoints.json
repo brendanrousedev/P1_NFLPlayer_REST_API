@@ -94,6 +94,27 @@
   },
   {
     "ContainingType": "P1_NFLPlayer_REST_API.Controllers.ContractsController",
+    "Method": "PatchTeam",
+    "RelativePath": "api/Contracts/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.ContractsController",
     "Method": "DeleteContract",
     "RelativePath": "api/Contracts/{id}",
     "HttpMethod": "DELETE",
@@ -196,6 +217,27 @@
       {
         "Name": "game",
         "Type": "P1_NFLPlayer_REST_API.POCO.Game",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.GamesController",
+    "Method": "PatchGame",
+    "RelativePath": "api/Games/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
         "IsRequired": true
       }
     ],
@@ -409,6 +451,27 @@
       {
         "Name": "stat",
         "Type": "P1_NFLPlayer_REST_API.POCO.Stat",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.StatsController",
+    "Method": "PatchStat",
+    "RelativePath": "api/Stats/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
         "IsRequired": true
       }
     ],

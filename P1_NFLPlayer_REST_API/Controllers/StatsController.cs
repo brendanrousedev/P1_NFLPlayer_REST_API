@@ -6,6 +6,7 @@ using Azure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.JsonPatch;
 using P1_NFLPlayer_REST_API.POCO;
 using Microsoft.AspNetCore.JsonPatch;
 
@@ -64,6 +65,46 @@ namespace P1_NFLPlayer_REST_API.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetStat", new { id = stat.StatId }, stat);
+        }
+
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> PatchStat(int id, [FromBody] JsonPatchDocument<Stat> patchDoc)
+        {
+            if (patchDoc == null)
+            {
+                return BadRequest();
+            }
+
+            var stat = await _context.Stats.FindAsync(id);
+            if (stat == null)
+            {
+                return NotFound();
+            }
+
+            patchDoc.ApplyTo(stat);
+
+            if (!ModelState.IsValid)
+            {
+                return NotFound();
+            }
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch(DbUpdateConcurrencyException)
+            {
+                if (!StatExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
         }
 
         [HttpDelete("{id}")]
