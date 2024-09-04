@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|c:\\users\\brend\\revature\\p1_nflplayer_rest_api\\p1_nflplayer_rest_api\\controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|solutionrelative:p1_nflplayer_rest_api\\controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|c:\\users\\brend\\revature\\p1_nflplayer_rest_api\\p1_nflplayer_rest_api\\controllers\\quarterbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|solutionrelative:p1_nflplayer_rest_api\\controllers\\quarterbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|c:\\users\\brend\\revature\\p1_nflplayer_rest_api\\p1_nflplayer_rest_api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|solutionrelative:p1_nflplayer_rest_api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|c:\\users\\brend\\revature\\p1_nflplayer_rest_api\\p1_nflplayer_rest_api\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|solutionrelative:p1_nflplayer_rest_api\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|c:\\users\\brend\\revature\\p1_nflplayer_rest_api\\p1_nflplayer_rest_api\\poco\\quarterback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|solutionrelative:p1_nflplayer_rest_api\\poco\\quarterback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContractsController.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Controllers\\ContractsController.cs",
+              "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\Controllers\\ContractsController.cs",
+              "ToolTip": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Controllers\\ContractsController.cs",
+              "RelativeToolTip": "P1_NFLPlayer_REST_API\\Controllers\\ContractsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwFgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T18:15:20.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatsController.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Controllers\\StatsController.cs",
+              "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\Controllers\\StatsController.cs",
+              "ToolTip": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Controllers\\StatsController.cs",
+              "RelativeToolTip": "P1_NFLPlayer_REST_API\\Controllers\\StatsController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAA9wE4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T17:00:05.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "P1_NFLPlayer_REST_API\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T14:15:12.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Quarterback.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\POCO\\Quarterback.cs",
+              "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\POCO\\Quarterback.cs",
+              "ToolTip": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\POCO\\Quarterback.cs",
+              "RelativeToolTip": "P1_NFLPlayer_REST_API\\POCO\\Quarterback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T18:18:42.868Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "64fb7412-1c83-48c0-b758-a28db8154f18",
+        "Display": 0,
+        "X": 689,
+        "Y": 60,
+        "Width": 961,
+        "Height": 968,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuarterbacksController.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Controllers\\QuarterbacksController.cs",
+              "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\Controllers\\QuarterbacksController.cs",
+              "ToolTip": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Controllers\\QuarterbacksController.cs",
+              "RelativeToolTip": "P1_NFLPlayer_REST_API\\Controllers\\QuarterbacksController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAUwE0AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:56:10.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<P1_NFLPlayer_REST_API.POCO.Game>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HomeTeamId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AwayTeamId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stadium)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HomeTeamScore)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AwayTeamScore)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HomeTeamId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AwayTeamId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stadium)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HomeTeamScore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AwayTeamScore)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.GameId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.GameId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.GameId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

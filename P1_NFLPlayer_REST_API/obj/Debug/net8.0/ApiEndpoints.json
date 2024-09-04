@@ -1,0 +1,495 @@
+[
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.ContractsController",
+    "Method": "GetContracts",
+    "RelativePath": "api/Contracts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[P1_NFLPlayer_REST_API.POCO.Contract, P1_NFLPlayer_REST_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.ContractsController",
+    "Method": "GetContract",
+    "RelativePath": "api/Contracts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "P1_NFLPlayer_REST_API.POCO.Contract",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.ContractsController",
+    "Method": "PutContract",
+    "RelativePath": "api/Contracts/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "contract",
+        "Type": "P1_NFLPlayer_REST_API.POCO.Contract",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.ContractsController",
+    "Method": "DeleteContract",
+    "RelativePath": "api/Contracts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.GamesController",
+    "Method": "GetGames",
+    "RelativePath": "api/Games",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[P1_NFLPlayer_REST_API.POCO.Game, P1_NFLPlayer_REST_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.GamesController",
+    "Method": "PostGame",
+    "RelativePath": "api/Games",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "game",
+        "Type": "P1_NFLPlayer_REST_API.POCO.Game",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "P1_NFLPlayer_REST_API.POCO.Game",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.GamesController",
+    "Method": "GetGame",
+    "RelativePath": "api/Games/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "P1_NFLPlayer_REST_API.POCO.Game",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.GamesController",
+    "Method": "PutGame",
+    "RelativePath": "api/Games/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "game",
+        "Type": "P1_NFLPlayer_REST_API.POCO.Game",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.GamesController",
+    "Method": "DeleteGame",
+    "RelativePath": "api/Games/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.QuarterbacksController",
+    "Method": "GetQuarterbacks",
+    "RelativePath": "api/Quarterbacks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[P1_NFLPlayer_REST_API.POCO.Quarterback, P1_NFLPlayer_REST_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.QuarterbacksController",
+    "Method": "PostQuarterback",
+    "RelativePath": "api/Quarterbacks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quarterback",
+        "Type": "P1_NFLPlayer_REST_API.POCO.Quarterback",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "P1_NFLPlayer_REST_API.POCO.Quarterback",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.QuarterbacksController",
+    "Method": "GetQuarterback",
+    "RelativePath": "api/Quarterbacks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "P1_NFLPlayer_REST_API.POCO.Quarterback",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.QuarterbacksController",
+    "Method": "PutQuarterback",
+    "RelativePath": "api/Quarterbacks/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "quarterback",
+        "Type": "P1_NFLPlayer_REST_API.POCO.Quarterback",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.QuarterbacksController",
+    "Method": "DeleteQuarterback",
+    "RelativePath": "api/Quarterbacks/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.StatsController",
+    "Method": "GetStats",
+    "RelativePath": "api/Stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[P1_NFLPlayer_REST_API.POCO.Stat, P1_NFLPlayer_REST_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.StatsController",
+    "Method": "PostStat",
+    "RelativePath": "api/Stats",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stat",
+        "Type": "P1_NFLPlayer_REST_API.POCO.Stat",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "P1_NFLPlayer_REST_API.POCO.Stat",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.StatsController",
+    "Method": "PutStat",
+    "RelativePath": "api/Stats/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "stat",
+        "Type": "P1_NFLPlayer_REST_API.POCO.Stat",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.StatsController",
+    "Method": "DeleteStat",
+    "RelativePath": "api/Stats/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.TeamsController",
+    "Method": "GetTeams",
+    "RelativePath": "api/Teams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[P1_NFLPlayer_REST_API.POCO.Team, P1_NFLPlayer_REST_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.TeamsController",
+    "Method": "PostTeam",
+    "RelativePath": "api/Teams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "team",
+        "Type": "P1_NFLPlayer_REST_API.POCO.Team",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "P1_NFLPlayer_REST_API.POCO.Team",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.TeamsController",
+    "Method": "GetTeam",
+    "RelativePath": "api/Teams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "P1_NFLPlayer_REST_API.POCO.Team",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.TeamsController",
+    "Method": "PutTeam",
+    "RelativePath": "api/Teams/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "team",
+        "Type": "P1_NFLPlayer_REST_API.POCO.Team",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "P1_NFLPlayer_REST_API.Controllers.TeamsController",
+    "Method": "DeleteTeam",
+    "RelativePath": "api/Teams/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

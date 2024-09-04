@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\P1_NFLPlayer_REST_API.props" />
+</Project>
