@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All NFL Teams</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="getTeams()">Display Teams</button>
+    <table id="teams">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Logo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added here by JavaScript -->
+        </tbody>
+    </table>
+
+    <script>
+        function getTeams() {
+            var url = "https://localhost:7117/api/Teams/";
+
+            fetch(url)
+                .then(response => response.json())
+                .then(result => {
+                    var tblBody = document.querySelector('#teams tbody');
+                    tblBody.innerHTML = ''; // Clear any existing rows
+
+                    result.forEach(team => {
+                        var row = document.createElement('tr');
+
+                        var cellId = document.createElement('td');
+                        cellId.textContent = team.teamId; // Ensure this matches your API's field name
+                        row.appendChild(cellId);
+
+                        var cellName = document.createElement('td');
+                        cellName.textContent = team.name; // Ensure this matches your API's field name
+                        row.appendChild(cellName);
+
+                        var cellCity = document.createElement('td');
+                        cellCity.textContent = team.city; // Ensure this matches your API's field name
+                        row.appendChild(cellCity);
+
+                        var cellLogo = document.createElement('td');
+                        var img = document.createElement('img');
+                        img.src = team.logo; // Ensure this matches your API's field name
+                        img.alt = 'Logo';
+                        img.style.width = '50px'; // Adjust size as needed
+                        cellLogo.appendChild(img);
+                        row.appendChild(cellLogo);
+
+                        tblBody.appendChild(row);
+                    });
+                })
+                .catch(err => {
+                    console.log(err);
+                });
+        }
+    </script>
+</body>
+</html>

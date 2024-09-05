@@ -1,8 +1,20 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\allteams.html",
+      "PackagePath": "staticwebassets\\allteams.html"
+    },
+    {
       "Id": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\indextest.html",
+      "PackagePath": "staticwebassets\\indextest.html"
+    },
+    {
+      "Id": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\styles\\styles.css",
+      "PackagePath": "staticwebassets\\styles\\styles.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.P1_NFLPlayer_REST_API.Microsoft.AspNetCore.StaticWebAssets.props",

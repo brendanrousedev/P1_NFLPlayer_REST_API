@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yTKxfKwjmqT7mesg4LaNKm9leKTAoSQWUArRaRJdBKU=",
+  "Hash": "bmbi8T7XxqDoSkmBLoAZ6RQeqP+MuzIrRCBbhV09c0g=",
   "Source": "P1_NFLPlayer_REST_API",
   "BasePath": "_content/P1_NFLPlayer_REST_API",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\allteams.html",
+      "SourceId": "P1_NFLPlayer_REST_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\",
+      "BasePath": "_content/P1_NFLPlayer_REST_API",
+      "RelativePath": "allteams.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\allteams.html"
+    },
     {
       "Identity": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\index.html",
       "SourceId": "P1_NFLPlayer_REST_API",
@@ -34,6 +53,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\indextest.html",
+      "SourceId": "P1_NFLPlayer_REST_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\",
+      "BasePath": "_content/P1_NFLPlayer_REST_API",
+      "RelativePath": "indextest.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\indextest.html"
+    },
+    {
+      "Identity": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\styles\\styles.css",
+      "SourceId": "P1_NFLPlayer_REST_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\",
+      "BasePath": "_content/P1_NFLPlayer_REST_API",
+      "RelativePath": "styles/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles\\styles.css"
     }
   ]
 }
