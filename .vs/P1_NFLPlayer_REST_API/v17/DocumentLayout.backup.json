@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|c:\\users\\brend\\revature\\p1_nflplayer_rest_api\\p1_nflplayer_rest_api\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|solutionrelative:p1_nflplayer_rest_api\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|c:\\users\\brend\\revature\\p1_nflplayer_rest_api\\p1_nflplayer_rest_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1044554E-0FD9-4491-A626-BE0EF343659A}|P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj|solutionrelative:p1_nflplayer_rest_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,24 +43,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\wwwroot\\index.html",
-              "RelativeToolTip": "P1_NFLPlayer_REST_API\\wwwroot\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-05T03:56:49.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Program.cs",
               "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\Program.cs",
-              "ToolTip": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Program.cs*",
-              "RelativeToolTip": "P1_NFLPlayer_REST_API\\Program.cs*",
+              "ToolTip": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Program.cs",
+              "RelativeToolTip": "P1_NFLPlayer_REST_API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T20:49:03.66Z",
@@ -72,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GamesController.cs",
               "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Controllers\\GamesController.cs",
               "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\Controllers\\GamesController.cs",
@@ -80,12 +63,11 @@
               "RelativeToolTip": "P1_NFLPlayer_REST_API\\Controllers\\GamesController.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAgwGcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T14:15:12.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T14:15:12.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "P1_NFLPlayer_REST_API.csproj",
               "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj",
               "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj",
@@ -93,12 +75,11 @@
               "RelativeToolTip": "P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-04T20:01:26.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T20:01:26.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Team.cs",
               "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\POCO\\Team.cs",
               "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\POCO\\Team.cs",
@@ -106,12 +87,11 @@
               "RelativeToolTip": "P1_NFLPlayer_REST_API\\POCO\\Team.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T19:51:01.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T19:51:01.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ContractsController.cs",
               "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Controllers\\ContractsController.cs",
               "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\Controllers\\ContractsController.cs",
@@ -119,12 +99,11 @@
               "RelativeToolTip": "P1_NFLPlayer_REST_API\\Controllers\\ContractsController.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAIwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T18:15:20.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T18:15:20.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "StatsController.cs",
               "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\Controllers\\StatsController.cs",
               "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\Controllers\\StatsController.cs",
@@ -132,12 +111,11 @@
               "RelativeToolTip": "P1_NFLPlayer_REST_API\\Controllers\\StatsController.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAwwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T17:00:05.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T17:00:05.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Quarterback.cs",
               "DocumentMoniker": "C:\\Users\\brend\\revature\\P1_NFLPlayer_REST_API\\P1_NFLPlayer_REST_API\\POCO\\Quarterback.cs",
               "RelativeDocumentMoniker": "P1_NFLPlayer_REST_API\\POCO\\Quarterback.cs",
@@ -145,8 +123,7 @@
               "RelativeToolTip": "P1_NFLPlayer_REST_API\\POCO\\Quarterback.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:18:42.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T18:18:42.868Z"
             }
           ]
         }
