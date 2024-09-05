@@ -256,3 +256,4 @@ C:\Users\brend\revature\P1_NFLPlayer_REST_API\P1_NFLPlayer_REST_API\obj\Debug\ne
 C:\Users\brend\revature\P1_NFLPlayer_REST_API\P1_NFLPlayer_REST_API\obj\Debug\net8.0\ref\P1_NFLPlayer_REST_API.dll
 C:\Users\brend\revature\P1_NFLPlayer_REST_API\P1_NFLPlayer_REST_API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\brend\revature\P1_NFLPlayer_REST_API\P1_NFLPlayer_REST_API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\brend\revature\P1_NFLPlayer_REST_API\P1_NFLPlayer_REST_API\bin\Debug\net8.0\P1_NFLPlayer_REST_API.staticwebassets.runtime.json
